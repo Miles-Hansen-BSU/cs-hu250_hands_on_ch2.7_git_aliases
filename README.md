@@ -15,11 +15,11 @@ Run the following command to see an alternative view of the history:
 ```bash
 $ git log --oneline --decorate --graph --all
 ```
-As a side note, the focus of this exercise is not on understand branches, but rather on understanding that the same information can be viewed from different perspectives.
+As a side note, the focus of this exercise is not on understanding branches, but rather on understanding that the same information can be viewed from different perspectives.
 
 You should see a diverging history starting at `C2-master` where commits were performed in parallel in both the `master` branch and the `sample-topic-branch` branch.
 
-At commit `C7 [...]` the topic branch was merged back into master.
+At commit `C7 [...]` the topic branch was merged back into the master.
 
 ## Step 4
 Run the following command which should result in an error, because the `customlog1` alias is not set:
